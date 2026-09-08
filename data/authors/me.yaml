@@ -1,0 +1,93 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Muhammad Danu Setiawan
+  given: Muhammad 
+  family: Danu Setiawan
+postnominals: []
+status:
+# icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
+role: BNSP Certified Associate Data Scientist | Fresh Graduate Informatics Engineering | Data Enthusiast
+email: danumuhammad085@gmail.com
+bio: |
+  Fresh graduate in Informatics Engineering with a BNSP Associate Data Scientist certification and hands-on training in Data 
+  Analytics through Excel, SQL, and Python bootcamps. Skilled in collecting, cleaning, exploring, and modeling data to produce 
+  accurate, decision-ready insights, with applied experience across classification, regression, clustering, and deep learning projects.
+
+# affiliations:
+#   - name: Tech Corp
+#     url: https://techcorp.example.com
+
+links:
+  - icon: at-symbol
+    url: mailto:danumuhammad085@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/DanuSetiawan05
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/muhammaddanusetiawan
+  # - icon: brands/x
+  #   url: https://x.com/alexjohnson
+
+# interests:
+#   - Data Science
+#   - Data Analytics
+#   - Software Engineer
+
+education:
+  - degree: B.S. Computer Science
+    institution: Mercu Buana University
+    start: 2022-08-29
+    end: 2026-02-27
+    summary: |
+      Thesis Research: 
+      "Classification and Analysis of Food Insecurity News Text Using IndoBERT and IndoBERT-SVM Algorithms" 
+      * Classified 2,700+ news articles on food insecurity in Indonesia into three risk categories (Safe, Vulnerable, Alert) using 
+      IndoBERT and IndoBERT-SVM models, applying keyword-based tagging on news data collected between January 2021 
+      and June 2025. 
+      * Processed and cleaned 2,708 of 2,715 collected news articles, successfully classifying 2,201 items to support automated, 
+      text-based food security monitoring. 
+      * Evaluated model performance across multiple epoch configurations (3, 5, 7, 10) using accuracy, precision, recall, and F1
+      score, identifying IndoBERT at 10 epochs as the best-performing model, outperforming IndoBERT-SVM.
+
+experience:
+  - role: Laravel Developer
+    org: Winnicode Garuda Teknologi 
+    start: 2025-03-17
+    end: 2025-07-17
+    summary: |
+      * Designed and developed a full-stack Employee Attendance Management System using Laravel and MySQL, architecting 
+      a dual-role structure with dedicated authentication and access control for Employee and Admin users.. 
+      * Built real-time attendance tracking, a leave request module with an approval workflow, and an admin dashboard with 
+      attendance data visualizations, giving management clear visibility into workforce activity. 
+      * Automated PDF export for daily and monthly attendance reports, streamlining a previously manual reporting process  
+      * Managed end-to-end CRUD operations across employee, attendance, and leave data, and collaborated closely with a 
+      mentor on debugging, testing, and performance optimization to deliver a stable, production-ready application. 
+
+# skills:
+#   - name: Development
+#     items:
+#       - label: TypeScript
+#         level: 5
+#       - label: React
+#         level: 5
+#       - label: Node.js
+#         level: 5
+#       - label: Python
+#         level: 4
+#   - name: DevOps
+#     items:
+#       - label: Docker
+#         level: 4
+#       - label: AWS
+#         level: 4
+#       - label: CI/CD
+#         level: 5
+
+# languages:
+#   - name: English
+#     level: 5
+#     label: Native
+
+# awards: []
