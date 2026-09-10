@@ -110,6 +110,10 @@ sections:
               icon: custom/powerbi
         - name: Web Development
           items:
+            - name: HTML
+              icon: custom/html
+            - name: CSS
+              icon: custom/css
             - name: Laravel
               icon: devicon/laravel
             - name: Bootstrap

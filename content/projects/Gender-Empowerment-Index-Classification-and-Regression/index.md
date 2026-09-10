@@ -1,5 +1,6 @@
 ---
 title: "Gender Empowerment Index: Classification & Regression"
+weight: 1
 date: 2024-11-28
 share: false
 summary: "Menganalisis dan memproyeksikan Indeks Pemberdayaan Gender (IDG) kabupaten/kota di Indonesia menggunakan algoritma K-Nearest Neighbors (KNN) dan Linear Regression."
@@ -22,7 +23,7 @@ links:
     label: Code Repository
 featured: true
 status: "Completed"
-role: "Data Science Student"
+role: "Author"
 duration: "1 month"
 team_size: 1
 highlights:
