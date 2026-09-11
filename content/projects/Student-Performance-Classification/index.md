@@ -37,6 +37,18 @@ Proyek analisis data dan Machine Learning untuk mengklasifikasi status kelulusan
 
 Performa akademik siswa dipengaruhi oleh banyak faktor mulai dari kebiasaan belajar, kehadiran di kelas, keterlibatan orang tua, hingga kondisi lingkungan sekitar. Tujuan dari analisis ini adalah mengidentifikasi faktor mana yang paling berpengaruh dan membangun model prediktif sehingga pihak sekolah dapat melakukan intervensi (seperti bimbingan tambahan atau konseling) lebih awal terhadap siswa yang berisiko tidak lulus.
 
+## Rumusan Masalah & Tujuan
+
+**Rumusan Masalah:**
+1. Faktor apa saja yang paling berpengaruh terhadap nilai ujian siswa?
+2. Seberapa baik algoritma Decision Tree dan KNN dapat memprediksi status kelulusan siswa berdasarkan faktor-faktor tersebut?
+3. Di antara kedua algoritma, mana yang memberikan performa lebih baik untuk kasus ini?
+
+**Tujuan Project:**
+- Mengidentifikasi faktor-faktor yang paling berkorelasi dengan nilai ujian siswa melalui eksplorasi data.
+- Membangun model klasifikasi Lulus/Tidak Lulus menggunakan Decision Tree dan KNN dengan fitur yang dipilih berdasarkan hasil eksplorasi.
+- Membandingkan performa kedua model secara adil (masing-masing di-tuning melalui cross-validation).
+
 ## Metodologi Analisis
 
 ### 1. Data Preparation & EDA
@@ -63,14 +75,29 @@ Performa akademik siswa dipengaruhi oleh banyak faktor mulai dari kebiasaan bela
 - **Parameter Terbaik:** K=14
 - **Akurasi (Accuracy):** 73.6%
 - **F1-Score:** 76.7%
+- **Precision & Recall:** Precision 76.5% dan Recall 77%
+
+## Manfaat & Dampak
+
+**Untuk Institusi Pendidikan/Sekolah:**
+Membantu pihak sekolah mengidentifikasi siswa berisiko tidak lulus sejak dini, sehingga intervensi seperti bimbingan tambahan atau konseling bisa dilakukan lebih cepat dan tepat sasaran.
+
+**Untuk Orang Tua & Siswa:**
+Memberi wawasan konkret bahwa kehadiran (Attendance) dan jam belajar (Hours_Studied) berpengaruh jauh lebih besar terhadap nilai dibanding faktor demografis seperti gender, mendukung fokus pada kebiasaan yang benar-benar bisa diperbaiki.
+
+**Dari Sisi Teknis (Data Science):**
+Menjadi studi kasus perbandingan dua algoritma klasifikasi populer (tree-based vs distance-based) yang di-tuning secara adil, sebagai referensi pemilihan algoritma untuk kasus klasifikasi biner serupa.
 
 ## Visualisasi Utama
 
 ![Distribusi Exam Score](exam-score-dist.png)
 *Gambar 1: Distribusi Exam Score dengan garis batas median pada nilai 67 yang dijadikan acuan klasifikasi Lulus/Tidak Lulus.*
 
-![Heatmap Korelasi](correlation-heatmap.png)
-*Gambar 2: Heatmap korelasi fitur numerik yang menunjukkan Attendance dan Hours_Studied memiliki hubungan paling kuat terhadap skor ujian.*
+![Perbandingan Metrik Evaluasi](model-comparison-metrics.png)
+*Gambar 2: Perbandingan Decision Tree vs KNN pada berbagai metrik evaluasi (Accuracy, Precision, Recall, F1-Score), menunjukkan Decision Tree secara konsisten unggul di seluruh metrik.*
+
+![Feature Importance Decision Tree](feature-importance-dt.png)
+*Gambar 3: Top 10 feature importance dari model Decision Tree, dengan Attendance dan Hours_Studied sebagai dua fitur paling berpengaruh terhadap prediksi kelulusan siswa.*
 
 ## Kesimpulan & Rekomendasi Kebijakan
 

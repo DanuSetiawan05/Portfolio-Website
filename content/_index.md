@@ -106,6 +106,8 @@ sections:
               icon: devicon/scikitlearn
             - name: Jupyter
               icon: devicon/jupyter
+            - name: Excel
+              icon: custom/msexcel
             - name: Power BI
               icon: custom/powerbi
         - name: Web Development
@@ -189,6 +191,8 @@ sections:
         exclude_featured: false
       count: 3
       order: asc
+      sort_by: 'Weight'
+      sort_ascending: true
     design:
       view: article-grid
       columns: 3

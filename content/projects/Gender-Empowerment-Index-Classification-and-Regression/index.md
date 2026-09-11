@@ -38,6 +38,18 @@ Proyek analisis data dan Machine Learning komprehensif untuk mengklasifikasi dan
 
 Indeks Pemberdayaan Gender mengukur sejauh mana perempuan berperan aktif dalam kehidupan ekonomi dan politik. Tujuan dari analisis ini adalah untuk memetakan wilayah mana saja yang tertinggal (kategori Rendah) dan memprediksi tren di masa depan agar pemerintah atau Kementerian PPPA dapat menentukan prioritas program pemberdayaan perempuan secara lebih terarah dan berbasis data.
 
+## Rumusan Masalah & Tujuan
+
+**Rumusan Masalah:**
+1. Wilayah mana saja yang memiliki kategori IDG "Rendah", dan dapatkah kategori ini diprediksi berdasarkan tren nilai historisnya?
+2. Bagaimana proyeksi nilai IDG tiap wilayah pada tahun 2024 berdasarkan tren 2021–2023?
+3. Wilayah mana yang diproyeksikan memiliki IDG terendah pada 2024, sehingga perlu menjadi prioritas?
+
+**Tujuan Project:**
+- Membangun model klasifikasi kategori IDG (Tinggi/Rendah) menggunakan KNN.
+- Membangun model regresi untuk memproyeksikan nilai IDG tahun 2024 tiap wilayah, dengan validasi yang genuine menggunakan data historis yang benar-benar tersedia.
+- Mengidentifikasi wilayah dengan IDG terendah sebagai bahan rekomendasi kebijakan.
+
 ## Metodologi Analisis
 
 ### 1. Data Preparation & EDA
@@ -63,6 +75,17 @@ Indeks Pemberdayaan Gender mengukur sejauh mana perempuan berperan aktif dalam k
 - **R-Squared (R²):** 0.755 (Model dapat menjelaskan 75.5% variansi data proyeksi)
 - **RMSE:** 4.75 poin indeks
 - **MAE:** 2.59 poin indeks
+
+## Manfaat & Dampak
+
+**Untuk Pemerintah/Kementerian PPPA & Pemerintah Daerah:**
+Membantu memetakan wilayah prioritas untuk program pemberdayaan perempuan secara lebih terarah dan berbasis data, sekaligus menjadi early warning bagi wilayah yang berpotensi mengalami penurunan IDG.
+
+**Untuk Peneliti/Akademisi:**
+Menjadi referensi studi kesenjangan gender antar wilayah di Indonesia, serta contoh penerapan klasifikasi & regresi pada data statistik wilayah.
+
+**Dari Sisi Teknis (Data Science):**
+Studi kasus penerapan klasifikasi dan regresi pada data deret waktu (time-series) singkat berbasis wilayah, termasuk bagaimana menghindari data leakage dan melakukan validasi proyeksi yang genuine.
 
 ## Visualisasi Utama
 
