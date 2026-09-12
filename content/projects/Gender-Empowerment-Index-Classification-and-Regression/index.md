@@ -24,7 +24,7 @@ links:
 featured: true
 status: "Completed"
 role: "Author"
-duration: "1 month"
+duration: "2 weeks"
 team_size: 1
 highlights:
   - "Mencegah data leakage dengan memisahkan tahun fitur (2021-2022) dan label (2023)."

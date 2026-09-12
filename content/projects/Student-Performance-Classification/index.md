@@ -23,7 +23,7 @@ links:
 featured: true
 status: "Completed"
 role: "author"
-duration: "1 month"
+duration: "3 weeks"
 team_size: 1
 highlights:
   - "Mencapai akurasi klasifikasi terbaik sebesar 84.7% menggunakan algoritma Decision Tree (max_depth=8)."
