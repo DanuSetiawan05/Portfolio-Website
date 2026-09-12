@@ -1,15 +1,15 @@
 ---
 title: "Nutritional Value Classification: Artificial Neural Network"
 weight: 3
-date: 2025-02-10
+date: 2025-10-02
 share: false
 summary: "Mengklasifikasikan produk makanan dan minuman ke dalam tingkat nilai gizi (Rendah/Sedang/Tinggi) menggunakan Artificial Neural Network (ANN) beserta eksperimen hyperparameter."
 tags: 
+  - Data Science
   - Deep Learning
   - Machine Learning
   - Artificial Neural Network
   - Classification
-  - Hyperparameter Tuning
 tech_stack:
   - Python
   - TensorFlow / Keras
@@ -23,7 +23,7 @@ links:
     label: Code Repository
 featured: true
 status: "Completed"
-role: "authors"
+role: "author"
 duration: "1 month"
 team_size: 4
 highlights:
