@@ -1,7 +1,7 @@
 ---
 title: "Employee Salary Level Classification: Random Forest"
 weight: 6
-date: 2025-10-25
+date: 2025-10-20
 share: false
 summary: "Mengklasifikasikan tingkat gaji karyawan menggunakan Random Forest, dengan fokus pada penerapan pipeline Machine Learning dan evaluasi cross-validation yang jujur pada dataset kecil."
 tags: 
@@ -22,7 +22,7 @@ links:
     label: Code Repository
 featured: true
 status: "Completed"
-role: "Data Scientist (Solo Project)"
+role: "author"
 duration: "3 weeks"
 team_size: 1
 highlights:
