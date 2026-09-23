@@ -17,7 +17,19 @@ tech_stack:
   - JavaScript
   - HTML/CSS
   - Blade Template
-url_code: "https://github.com/DanuSetiawan05/Student-Management"
+links:
+  - type: github
+    url: https://github.com/DanuSetiawan05/Student-Management
+    label: Code Repository
+featured: true
+status: "Completed"
+role: "Full-Stack Developer (Group Project)"
+duration: "1 Semester"
+team_size: 4
+highlights:
+  - "Menerapkan Role-Based Access Control (RBAC) untuk memisahkan hak akses antara Admin (manajemen akademik) dan User (portal interaktif)."
+  - "Membangun dashboard interaktif yang dilengkapi dengan visualisasi data siswa dan pengajar secara real-time."
+  - "Mengintegrasikan fitur pembuatan dokumen otomatis (Export to PDF) untuk tanda terima pembayaran siswa."
 ---
 
 Proyek *Web Development Full-Stack* untuk membangun sistem administrasi akademik yang efisien dan terstruktur. Proyek ini mendemonstrasikan kemampuan pengembangan aplikasi web berskala *enterprise* dengan implementasi *Role-Based Access Control* (RBAC), arsitektur *Model-View-Controller* (MVC) menggunakan **Laravel 11**, serta integrasi pembuatan laporan (PDF Export).
@@ -58,3 +70,8 @@ Aplikasi ini mengandalkan teknologi backend yang solid dan frontend yang dinamis
 
 ![Home User](home-user.png)
 *Gambar 2: Tampilan antarmuka pengguna (User) yang informatif dan responsif untuk melihat profil dan berita kampus.*
+
+---
+
+**Project Status**: ✅ Completed  
+**GitHub**: [Lihat Source Code](https://github.com/DanuSetiawan05/Student-Management)
