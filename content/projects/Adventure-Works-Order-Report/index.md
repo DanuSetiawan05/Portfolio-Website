@@ -11,7 +11,6 @@ tags:
   - Exploratory Data Analysis
 tech_stack:
   - Power BI Desktop
-  - DAX
   - Power Query
   - Adventure Works Sales Dataset
 links:
