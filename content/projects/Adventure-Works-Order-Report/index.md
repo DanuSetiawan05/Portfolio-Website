@@ -52,13 +52,13 @@ Data pesanan mentah biasanya sulit dibaca langsung dalam bentuk tabel. Memilih j
 - **Header Judul:** Textbox judul "Adventure Works Order Report 2023" ditempatkan rata tengah di bagian atas halaman sebagai identitas laporan.
 - **Konsistensi Tema:** Menggunakan palet warna kustom **Accessible City Park** yang sama dengan project sebelumnya, menjaga identitas visual tetap konsisten antar laporan.
 
-## Yang Dapat Digali dari Laporan Ini
+## Insight Data
 
 - **Waterfall Chart** menjawab pertanyaan: metode pengiriman apa yang paling banyak dan paling sedikit digunakan pelanggan.
 - **Clustered Column Chart** menjawab pertanyaan: dari lokasi mana volume pesanan terbanyak berasal.
 - **Pie Chart** menjawab pertanyaan: seberapa besar proporsi pesanan yang selesai, masih diproses, atau dibatalkan.
 
-## Relevansi untuk Dunia Kerja
+## Relevansi Dunia Kerja
 
 Ketiga sudut pandang yang dibangun pada laporan ini merupakan kebutuhan analitis yang umum di lingkungan bisnis: tim logistik/operasional dapat memakai breakdown metode pengiriman untuk evaluasi biaya dan performa kurir, tim sales/marketing dapat memakai sebaran lokasi pelanggan untuk menentukan target ekspansi pasar, dan tim manajemen dapat memantau kesehatan proses pemenuhan pesanan lewat proporsi status pesanan.
 

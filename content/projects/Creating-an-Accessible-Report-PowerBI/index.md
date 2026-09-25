@@ -1,7 +1,7 @@
 ---
 title: "Creating an Accessible Power BI Report: Adventure Works Sales"
 weight: 8
-date: 2026-08-20
+date: 2026-08-19
 share: false
 summary: "Merancang laporan Power BI untuk data penjualan regional Adventure Works dengan menerapkan prinsip aksesibilitas (WCAG), alt text, tab order, dan color-blind safe theme, agar insight bisnis dapat diakses secara setara oleh seluruh pengguna."
 tags: 
@@ -54,13 +54,13 @@ Laporan yang hanya mengandalkan warna untuk membedakan kategori, tidak punya des
 - **Alt Text:** Pada *Clustered Column Chart* (Monthly Order Quantities by Order Status), ditambahkan deskripsi naratif ringkas tentang tren data untuk mendukung *screen reader*.
 - **Tab Order:** Urutan navigasi diatur eksplisit Line Chart → Clustered Column Chart → Bar Chart, agar alur baca konsisten bagi pengguna keyboard/*assistive technology*.
 
-## Insight dari Data
+## Insight Data
 
 - Tren pengiriman pesanan (*shipped*) tumbuh eksponensial dari Februari ke April, dengan lonjakan signifikan di bulan April.
 - Pesanan dibatalkan (*cancelled*) konsisten menjadi kategori terkecil sepanjang periode tersebut.
 - Pesanan dalam proses (*processing*) menunjukkan pertumbuhan stabil dari bulan ke bulan.
 
-## Relevansi untuk Dunia Kerja
+## Relevansi Dunia Kerja
 
 Meski berskala latihan, praktik yang diterapkan di sini relevan secara langsung dengan kebutuhan riil di banyak perusahaan: laporan BI yang inklusif membantu memperluas jumlah karyawan yang benar-benar bisa memanfaatkan data untuk pengambilan keputusan, dan menjadi kebiasaan baik (*good practice*) yang selaras dengan kebijakan aksesibilitas digital (mis. WCAG) yang makin banyak diadopsi organisasi.
 

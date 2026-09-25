@@ -1,7 +1,7 @@
 ---
 title: "Adventure Works Product Sales Report: Product Performance Analysis with Power BI"
 weight: 10
-date: 2025-11-25
+date: 2026-08-20
 share: false
 summary: "Membangun laporan analisis performa penjualan produk Adventure Works menggunakan Power BI, memanfaatkan Stacked Area Chart, Clustered Bar Chart, Pie Chart, dan Clustered Column Chart untuk membedah penjualan dari sisi warna, kategori produk, ukuran, dan tren bulanan."
 tags: 
@@ -53,14 +53,14 @@ Bagi tim produk maupun sales, memahami kontribusi penjualan bukan hanya dari sis
 - **Header Judul:** Textbox judul "Adventure Works Product Sales Report 2023" ditempatkan rata tengah di bagian atas halaman.
 - **Konsistensi Tema:** Menggunakan palet warna kustom **Accessible City Park** yang sama dengan project-project sebelumnya dalam rangkaian laporan Adventure Works ini.
 
-## Yang Dapat Digali dari Laporan Ini
+## Insight Data
 
 - **Stacked Area Chart** menjawab pertanyaan: warna produk apa yang paling banyak menyumbang total penjualan.
 - **Clustered Bar Chart** menjawab pertanyaan: kategori dan subkategori produk mana yang menghasilkan penjualan tertinggi.
 - **Pie Chart** menjawab pertanyaan: ukuran produk apa yang mendominasi total nilai penjualan.
 - **Clustered Column Chart** menjawab pertanyaan: bagaimana pergerakan total penjualan dari bulan ke bulan.
 
-## Relevansi untuk Dunia Kerja
+## Relevansi Dunia Kerja
 
 Keempat sudut pandang pada laporan ini merupakan kebutuhan analitis umum di tim produk dan sales: memahami preferensi warna dan ukuran produk membantu perencanaan stok dan pembelian, breakdown kategori/subkategori membantu evaluasi lini produk mana yang perlu didorong lebih jauh, dan tren bulanan membantu tim manajemen memantau musiman (*seasonality*) penjualan untuk perencanaan target berikutnya.
 
